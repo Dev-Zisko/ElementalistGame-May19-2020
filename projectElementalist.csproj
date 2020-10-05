@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{086A8218-7D40-4C13-834C-E07A052EEFEB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>projectElementalist</RootNamespace>
+    <AssemblyName>projectElementalist</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interfaces\Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Game.Designer.cs">
+      <DependentUpon>Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Match.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Match.Designer.cs">
+      <DependentUpon>Match.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Interfaces\Game.resx">
+      <DependentUpon>Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Match.resx">
+      <DependentUpon>Match.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pjair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pjearth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pjfire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pjwater.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniair0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniair1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniair2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniair3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniair4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniair5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniair6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniair7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniair8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniair9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniairinvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniairmore2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniairturn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minicomodin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniearth0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniearth1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniearth2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniearth3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniearth4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniearth5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniearth6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniearth7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniearth8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniearth9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniearthinvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniearthmore2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniearthturn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minielement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minifire0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minifire1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minifire2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minifire3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minifire4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minifire5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minifire6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minifire7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minifire8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minifire9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minifireinvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minifiremore2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minifireturn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimore4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniwater0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniwater1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniwater2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniwater3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniwater4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniwater5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniwater6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniwater7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniwater8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniwater9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniwaterinvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniwatermore2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniwaterturn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backcard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardair0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardair1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardair2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardair3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardair4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardair5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardair6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardair7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardair8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardair9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardairinvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardairmore2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardairturn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardcomodin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardearth0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardearth1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardearth2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardearth3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardearth4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardearth5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardearth6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardearth7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardearth8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardearth9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardearthinvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardearthmore2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardearthturn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardelement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardfire0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardfire1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardfire2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardfire3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardfire4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardfire5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardfire6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardfire7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardfire8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardfire9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardfireinvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardfiremore2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardfireturn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardmore4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardwater0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardwater1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardwater2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardwater3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardwater4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardwater5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardwater6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardwater7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardwater8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardwater9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardwaterinvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardwatermore2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardwaterturn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <Content Include="Sounds\LMitySpringBreeze.wav" />
+    <None Include="Resources\backgroundButton.png" />
+    <None Include="Resources\effectcardwater.png" />
+    <None Include="Resources\effectcardfire.png" />
+    <None Include="Resources\effectcardair.png" />
+    <None Include="Resources\effectcardearth.png" />
+    <None Include="Resources\pjwaterhover2.png" />
+    <None Include="Resources\pjfirehover2.png" />
+    <None Include="Resources\pjearthhover2.png" />
+    <None Include="Resources\pjairhover2.png" />
+    <None Include="Resources\buttonStarthover.png" />
+    <None Include="Resources\buttonStart.png" />
+    <None Include="Resources\pjwaterhover.png" />
+    <None Include="Resources\buttonPasshover.png" />
+    <None Include="Resources\buttonPass.png" />
+    <None Include="Resources\buttonReloadhover.png" />
+    <None Include="Resources\buttonReload.png" />
+    <None Include="Resources\pjfirehover.png" />
+    <None Include="Resources\pjearthhover.png" />
+    <None Include="Resources\pjairhover.png" />
+    <None Include="Resources\buttonCreatehover.png" />
+    <None Include="Resources\buttonCreate.png" />
+    <None Include="Resources\buttonRefreshhover.png" />
+    <None Include="Resources\buttonRefresh.png" />
+    <None Include="Resources\buttonEnterhover.png" />
+    <None Include="Resources\buttonEnter.png" />
+    <None Include="Resources\buttonRegisterhover.png" />
+    <None Include="Resources\buttonRegister.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

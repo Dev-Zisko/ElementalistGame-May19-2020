@@ -1,0 +1,13 @@
+C:\Users\Atlas\Desktop\projectElementalist\bin\Release\projectElementalist.exe.config
+C:\Users\Atlas\Desktop\projectElementalist\bin\Release\projectElementalist.exe
+C:\Users\Atlas\Desktop\projectElementalist\bin\Release\projectElementalist.pdb
+C:\Users\Atlas\Desktop\projectElementalist\obj\Release\projectElementalist.csprojAssemblyReference.cache
+C:\Users\Atlas\Desktop\projectElementalist\obj\Release\projectElementalist.Interfaces.Game.resources
+C:\Users\Atlas\Desktop\projectElementalist\obj\Release\projectElementalist.Interfaces.Home.resources
+C:\Users\Atlas\Desktop\projectElementalist\obj\Release\projectElementalist.Interfaces.Match.resources
+C:\Users\Atlas\Desktop\projectElementalist\obj\Release\projectElementalist.Interfaces.Menu.resources
+C:\Users\Atlas\Desktop\projectElementalist\obj\Release\projectElementalist.Properties.Resources.resources
+C:\Users\Atlas\Desktop\projectElementalist\obj\Release\projectElementalist.csproj.GenerateResource.cache
+C:\Users\Atlas\Desktop\projectElementalist\obj\Release\projectElementalist.csproj.CoreCompileInputs.cache
+C:\Users\Atlas\Desktop\projectElementalist\obj\Release\projectElementalist.exe
+C:\Users\Atlas\Desktop\projectElementalist\obj\Release\projectElementalist.pdb

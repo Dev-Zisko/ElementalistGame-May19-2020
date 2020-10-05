@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cardair0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardair0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardelement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardelement.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniwater6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniwater6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minifireturn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minifireturn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniwater5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniwater5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniearth8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniearth8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="effectcardwater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\effectcardwater.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pjairhover2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pjairhover2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniair4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniair4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardwater1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardwater1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardearth6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardearth6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniair6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniair6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniwater2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniwater2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardearthmore2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardearthmore2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniwater8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniwater8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardwatermore2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardwatermore2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniair7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniair7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardwater8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardwater8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniair2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniair2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardwater0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardwater0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardfireturn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardfireturn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonPass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonPass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonCreatehover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonCreatehover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardair6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardair6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniwater0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniwater0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pjfire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pjfire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniair0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniair0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardfire7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardfire7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minifireinvert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minifireinvert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardairinvert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardairinvert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniearth4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniearth4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonCreate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonCreate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardearth5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardearth5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardair4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardair4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniwater7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniwater7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardwater4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardwater4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minifire2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minifire2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniearth9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniearth9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pjearthhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pjearthhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniair3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniair3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardwater2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardwater2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardfiremore2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardfiremore2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardearth7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardearth7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniwater3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniwater3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniwater9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniwater9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardairmore2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardairmore2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniair1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniair1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniearth2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniearth2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardearth9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardearth9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardair5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardair5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniearth5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniearth5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardfire3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardfire3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minifire3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minifire3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonRegister" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonRegister.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardearth1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardearth1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pjwaterhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pjwaterhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardair2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardair2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonPasshover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonPasshover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardfire4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardfire4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardwater5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardwater5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minifire1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minifire1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardairturn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardairturn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimore4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimore4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardwater3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardwater3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pjfirehover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pjfirehover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardearth8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardearth8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardair9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardair9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardair3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardair3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pjairhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pjairhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardwater7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardwater7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniairturn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniairturn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardearthinvert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardearthinvert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minifire9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minifire9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniearthturn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniearthturn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardair1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardair1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardcomodin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardcomodin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardfire8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardfire8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniearth6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniearth6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardfire2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardfire2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniairinvert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniairinvert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minifire7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minifire7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonEnterhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonEnterhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniair8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniair8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonRegisterhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonRegisterhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardearth2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardearth2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonReloadhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonReloadhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardwater6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardwater6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="effectcardair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\effectcardair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minifiremore2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minifiremore2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardair8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardair8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniearth0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniearth0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minielement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minielement.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardfire9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardfire9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardmore4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardmore4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniairmore2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniairmore2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniwaterturn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniwaterturn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pjair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pjair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minifire8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minifire8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pjwater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pjwater.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniair9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniair9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardwaterinvert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardwaterinvert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonReload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonReload.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniearth7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniearth7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardfire1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardfire1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardfire5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardfire5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonRefreshhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonRefreshhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minifire6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minifire6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniwaterinvert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniwaterinvert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniearthinvert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniearthinvert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardearth3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardearth3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pjwaterhover2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pjwaterhover2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardfireinvert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardfireinvert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardfire6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardfire6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniearth1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniearth1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonStart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonStart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minifire4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minifire4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardearthturn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardearthturn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniair5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniair5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardwaterturn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardwaterturn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pjfirehover2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pjfirehover2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniwater1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniwater1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardearth0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardearth0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniearth3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniearth3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backcard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backcard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pjearth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pjearth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardfire0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardfire0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pjearthhover2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pjearthhover2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="effectcardfire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\effectcardfire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardair7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardair7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minifire0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minifire0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minicomodin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minicomodin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonRefresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonRefresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonStarthover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonStarthover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniwater4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniwater4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minifire5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minifire5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardwater9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardwater9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniearthmore2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniearthmore2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniwatermore2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniwatermore2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="effectcardearth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\effectcardearth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardearth4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardearth4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backgroundButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backgroundButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
